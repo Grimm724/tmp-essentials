@@ -1,12 +1,24 @@
 {
-  "author": "Keijiro Takahashi",
-  "dependencies": { "com.unity.ugui": "2.0.0" },
-  "description": "TextMesh Pro essential resources repackaged for Unity Package Manager.",
-  "displayName": "TextMesh Pro Essential Resources",
-  "keywords": [ "unity" ],
-  "license": "SEE LICENSE IN LICENSE",
   "name": "jp.keijiro.tmp-essentials",
+  "version": "1.0.0",
+  "displayName": "TextMesh Pro Essential Resources",
+  "description": "TextMesh Pro essential resources repackaged for Unity Package Manager.",
+  "author": "Keijiro Takahashi",
+  "license": "SEE LICENSE IN LICENSE",
   "unity": "6000.0",
   "unityRelease": "0f1",
-  "version": "1.0.0"
+  "keywords": [
+    "unity",
+    "textmeshpro",
+    "tmp",
+    "essentials"
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.9",
+    "com.unity.ugui":           "2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/Grimm724/tmp-essentials.git"
+  }
 }
