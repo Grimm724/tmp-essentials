@@ -13,10 +13,11 @@
     "tmp",
     "essentials"
   ],
-  "dependencies": {
-    "com.unity.textmeshpro": "3.0.9",
-    "com.unity.ugui":           "2.0.0"
-  },
+"dependencies": {
+-  "com.unity.ugui": "2.0.0",
++  "com.unity.ugui": "1.0.0",
+   "com.unity.textmeshpro": "3.0.9"
+}
   "repository": {
     "type": "git",
     "url":  "https://github.com/Grimm724/tmp-essentials.git"
